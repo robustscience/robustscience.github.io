@@ -17,51 +17,80 @@ layout: default
     <img src="{{site.url}}{{site.baseurl}}/assets/img/robustscience-logo.png" width="150em"
          style="display: inline-block; margin-left: 5em; margin-top: -2em"/>
 </div>
+
 <div class="col-lg-8 offset-md-2">
-    <section id="recent-articles">
-        <div id="recent-articles-header">
+    <p>
+        The RobustScience project gathers interdisciplinary communities to define a roadmap to robust science using
+        <strong>high-throughput applications</strong> for scientific discovery. High-throughput applications combine
+        multiple tasks into increasingly complex workflows on heterogeneous systems. Robust science should assure
+        performance scalability in space and time; trust in technology, people, and infrastructures; and reproducibility
+        or confirmable research in high-throughput applications.
+    </p>
+    <p>
+        We will define the roadmap through three <strong>Virtual Cafes</strong> tailored to three groups: application
+        users and scientists; system developers and users; and educators and trainers.
+    </p>
+</div>
+
+<div class="col-lg-8 offset-md-2 mt-lg-5">
+    <div class="row">
+        <div class="col-lg-4">
+            <img src="/assets/img/cafe1.png" style="width: 20em"/>
+        </div>
+        <div class="col-lg-4">
+            <img src="/assets/img/cafe2.png" style="width: 20em"/>
+        </div>
+        <div class="col-lg-4">
+            <img src="/assets/img/cafe3.png" style="width: 20em"/>
+        </div>
+    </div>
+</div>
+
+<!--<div class="col-lg-8 offset-md-2">-->
+<!--    <section id="recent-articles">-->
+<!--        <div id="recent-articles-header">-->
 <!--            <div id="recent-articles-title">-->
 <!--                <h1 class="card-title">Recent Articles</h1>-->
 <!--            </div>-->
 <!--            <div id="recent-articles-show-all">-->
 <!--                <a class="btn btn-lg btn-dark" href="/blog"> View All </a>-->
 <!--            </div>-->
-        </div>
-        <br/>
+<!--        </div>-->
+<!--        <br/>-->
 
-        <ul>
-            {% for post in site.posts limit:5 %}
-            <li class="article-card">
-                <a href="{{post.url}}" class="article-card-link">
-                    <div id="article-container">
-                        <div id="article-img">
-                            {% if post.author %}
-                            {% assign author = post.author %}
-                            {% if author %}
-                            {% assign author_data = site.data.authors[author] %}
-                            <img
-                                    src="{{site.url}}{{site.baseurl}}/assets/img/authors/{{author_data.avatar}}"
-                                    width="50px"
-                                    height="50px"
-                            />
-                            {% endif %}
-                            {% endif %}
+<!--        <ul>-->
+<!--            {% for post in site.posts limit:5 %}-->
+<!--            <li class="article-card">-->
+<!--                <a href="{{post.url}}" class="article-card-link">-->
+<!--                    <div id="article-container">-->
+<!--                        <div id="article-img">-->
+<!--                            {% if post.author %}-->
+<!--                            {% assign author = post.author %}-->
+<!--                            {% if author %}-->
+<!--                            {% assign author_data = site.data.authors[author] %}-->
+<!--                            <img-->
+<!--                                    src="{{site.url}}{{site.baseurl}}/assets/img/authors/{{author_data.avatar}}"-->
+<!--                                    width="50px"-->
+<!--                                    height="50px"-->
+<!--                            />-->
+<!--                            {% endif %}-->
+<!--                            {% endif %}-->
 
-                        </div>
-                        <div id="article-link">
-                            <p class="recent-article-link">{{post.title}} <span style="color: #ccc; font-size: 15px;"> - <i><time
-                                    datetime="{{ post.date }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></i></span>
-                            </p>
-                        </div>
-                        <div id="article-alert">
-                            {% for cat in post.category limit:1 %}
-                            <button class="btn btn-sm btn-dark">{{cat}}</button>
-                            {% endfor %}
-                        </div>
-                    </div>
-                </a>
-            </li>
-            {% endfor %}
-        </ul>
-    </section>
-</div>
+<!--                        </div>-->
+<!--                        <div id="article-link">-->
+<!--                            <p class="recent-article-link">{{post.title}} <span style="color: #ccc; font-size: 15px;"> - <i><time-->
+<!--                                    datetime="{{ post.date }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></i></span>-->
+<!--                            </p>-->
+<!--                        </div>-->
+<!--                        <div id="article-alert">-->
+<!--                            {% for cat in post.category limit:1 %}-->
+<!--                            <button class="btn btn-sm btn-dark">{{cat}}</button>-->
+<!--                            {% endfor %}-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--            {% endfor %}-->
+<!--        </ul>-->
+<!--    </section>-->
+<!--</div>-->
