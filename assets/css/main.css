@@ -1425,3 +1425,21 @@ footer a {
 .highlight .gi {
     color: #a6e22e;
 }
+
+.team {
+    padding: 2em 2em;
+}
+
+.team img {
+    max-width: 6em;
+    float: left;
+    margin-right: 1em;
+    border-radius: 0.2em;
+    box-shadow: #333 3px 3px 3px;
+}
+
+.team-info {
+    font-size: 0.9em;
+    line-height: 1.2em;
+    margin-top: 0.5em;
+}

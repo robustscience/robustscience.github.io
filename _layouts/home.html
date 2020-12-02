@@ -64,51 +64,176 @@ layout: default
     </div>
 </div>
 
-<!--<div class="col-lg-8 offset-md-2">-->
-<!--    <section id="recent-articles">-->
-<!--        <div id="recent-articles-header">-->
-<!--            <div id="recent-articles-title">-->
-<!--                <h1 class="card-title">Recent Articles</h1>-->
-<!--            </div>-->
-<!--            <div id="recent-articles-show-all">-->
-<!--                <a class="btn btn-lg btn-dark" href="/blog"> View All </a>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <br/>-->
+<div class="col-lg-8 offset-md-2" style="margin-top: 5em">
+    <hr>
+    <br/><br/>
+    <h3>Meet the Team</h3>
+    <br/>
+    <strong>Project PIs and Workshop Facilitators:</strong>
 
-<!--        <ul>-->
-<!--            {% for post in site.posts limit:5 %}-->
-<!--            <li class="article-card">-->
-<!--                <a href="{{post.url}}" class="article-card-link">-->
-<!--                    <div id="article-container">-->
-<!--                        <div id="article-img">-->
-<!--                            {% if post.author %}-->
-<!--                            {% assign author = post.author %}-->
-<!--                            {% if author %}-->
-<!--                            {% assign author_data = site.data.authors[author] %}-->
-<!--                            <img-->
-<!--                                    src="{{site.url}}{{site.baseurl}}/assets/img/authors/{{author_data.avatar}}"-->
-<!--                                    width="50px"-->
-<!--                                    height="50px"-->
-<!--                            />-->
-<!--                            {% endif %}-->
-<!--                            {% endif %}-->
+    <div class="row">
+        <div class="col-lg-4 team">
+            <img src="/assets/img/team/deelman.jpg"/>
+            <div class="team-info">
+                <a href="http://deelman.isi.edu" target="_blank">
+                    Ewa Deelman, Ph.D.
+                </a>
+                <br/>
+                Research Professor and Research Director<br/>
+                University of Southern California, Information Sciences Institute
+            </div>
+        </div>
 
-<!--                        </div>-->
-<!--                        <div id="article-link">-->
-<!--                            <p class="recent-article-link">{{post.title}} <span style="color: #ccc; font-size: 15px;"> - <i><time-->
-<!--                                    datetime="{{ post.date }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></i></span>-->
-<!--                            </p>-->
-<!--                        </div>-->
-<!--                        <div id="article-alert">-->
-<!--                            {% for cat in post.category limit:1 %}-->
-<!--                            <button class="btn btn-sm btn-dark">{{cat}}</button>-->
-<!--                            {% endfor %}-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </a>-->
-<!--            </li>-->
-<!--            {% endfor %}-->
-<!--        </ul>-->
-<!--    </section>-->
-<!--</div>-->
+        <div class="col-lg-4 team">
+            <img src="/assets/img/team/estrada.jpg"/>
+            <div class="team-info">
+                <a href="https://www.cs.unm.edu/~estrada/index.php" target="_blank">
+                    Trilce Estrada, Ph.D.
+                </a>
+                <br/>
+                Associate Professor<br/>
+                University of New Mexico, Department of Computer Science
+            </div>
+        </div>
+
+        <div class="col-lg-4 team">
+            <img src="/assets/img/team/ferreiradasilva.jpg"/>
+            <div class="team-info">
+                <a href="https://rafaelsilva.com" target="_blank">
+                    Rafael Ferreira da Silva, Ph.D.
+                </a>
+                <br/>
+                Research Assistant Professor and Research Lead<br/>
+                University of Southern California, Information Sciences Institute
+            </div>
+        </div>
+
+        <div class="col-lg-4 team">
+            <img src="/assets/img/team/hall.jpg"/>
+            <div class="team-info">
+                <a href="https://faculty.utah.edu/u0636183-MARY_W_HALL/hm/index.hml" target="_blank">
+                    Mary W. Hall, Ph.D.
+                </a>
+                <br/>
+                Professor<br/>
+                University of Utah, School of Computing
+            </div>
+        </div>
+
+        <div class="col-lg-4 team">
+            <img src="/assets/img/team/pottier.jpg"/>
+            <div class="team-info">
+                <a href="https://loicpottier.com/" target="_blank">
+                    Loïc Pottier, Ph.D.
+                </a>
+                <br/>
+                Computer Scientist<br/>
+                University of Southern California, Information Sciences Institute
+            </div>
+        </div>
+
+        <div class="col-lg-4 team">
+            <img src="/assets/img/team/stodden.jpg"/>
+            <div class="team-info">
+                <a href="http://stodden.net" target="_blank">
+                    Victoria Stodden, Ph.D.
+                </a>
+                <br/>
+                Associate Professor<br/>
+                University of Illinois, School of Information Sciences
+            </div>
+        </div>
+
+        <div class="col-lg-4 team">
+            <img src="/assets/img/team/taufer.jpg"/>
+            <div class="team-info">
+                <a href="https://www.eecs.utk.edu/people/michela-taufer/" target="_blank">
+                    Michela Taufer, Ph.D.
+                </a>
+                <br/>
+                Jack Dongarra Professor in High Performance Computing<br/>
+                University of Tennessee, Dept. of Electrical Engineering and Computer Science
+            </div>
+        </div>
+    </div>
+
+    <br/>
+    <strong>Workshop Assessment Team</strong>
+
+    <div class="row">
+        <div class="col-lg-4 team">
+            <img src="/assets/img/team/bishop.jpg"/>
+            <div class="team-info">
+                <a href="https://research.utk.edu/people/pamela-bishop/" target="_blank">
+                    Pam Bishop, Ph.D.
+                </a>
+                <br/>
+                Director<br/>
+                University of Tennessee, National Institute for STEM Evaluation and Research
+            </div>
+        </div>
+
+        <div class="col-lg-4 team">
+            <img src="/assets/img/team/echols.jpg"/>
+            <div class="team-info">
+                <a href="https://niser.utk.edu/people/erica-echols/" target="_blank">
+                    Erica Echols, M.S.
+                </a>
+                <br/>
+                Evaluation Specialist<br/>
+                University of Tennessee, National Institute for STEM Evaluation and Research
+            </div>
+        </div>
+    </div>
+
+    <br/>
+    For questions about the workshop, please direct your inquiries to our <strong><a href="mailto:gwisser@utk.edu">
+    Workshop Coordinator, Grace Wisser</a></strong>.
+
+    <!--    <section id="recent-articles">-->
+    <!--        <div id="recent-articles-header">-->
+    <!--            <div id="recent-articles-title">-->
+    <!--                <h1 class="card-title">Recent Articles</h1>-->
+    <!--            </div>-->
+    <!--            <div id="recent-articles-show-all">-->
+    <!--                <a class="btn btn-lg btn-dark" href="/blog"> View All </a>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--        <br/>-->
+
+    <!--        <ul>-->
+    <!--            {% for post in site.posts limit:5 %}-->
+    <!--            <li class="article-card">-->
+    <!--                <a href="{{post.url}}" class="article-card-link">-->
+    <!--                    <div id="article-container">-->
+    <!--                        <div id="article-img">-->
+    <!--                            {% if post.author %}-->
+    <!--                            {% assign author = post.author %}-->
+    <!--                            {% if author %}-->
+    <!--                            {% assign author_data = site.data.authors[author] %}-->
+    <!--                            <img-->
+    <!--                                    src="{{site.url}}{{site.baseurl}}/assets/img/authors/{{author_data.avatar}}"-->
+    <!--                                    width="50px"-->
+    <!--                                    height="50px"-->
+    <!--                            />-->
+    <!--                            {% endif %}-->
+    <!--                            {% endif %}-->
+
+    <!--                        </div>-->
+    <!--                        <div id="article-link">-->
+    <!--                            <p class="recent-article-link">{{post.title}} <span style="color: #ccc; font-size: 15px;"> - <i><time-->
+    <!--                                    datetime="{{ post.date }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></i></span>-->
+    <!--                            </p>-->
+    <!--                        </div>-->
+    <!--                        <div id="article-alert">-->
+    <!--                            {% for cat in post.category limit:1 %}-->
+    <!--                            <button class="btn btn-sm btn-dark">{{cat}}</button>-->
+    <!--                            {% endfor %}-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </a>-->
+    <!--            </li>-->
+    <!--            {% endfor %}-->
+    <!--        </ul>-->
+    <!--    </section>-->
+</div>
