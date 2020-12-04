@@ -1443,3 +1443,17 @@ footer a {
     line-height: 1.2em;
     margin-top: 0.5em;
 }
+
+.format li {
+    margin-bottom: 1em !important;
+}
+
+.format iframe {
+    border: 1px solid #ccc;
+    box-shadow: #666 3px 3px 3px;
+    margin-top: 2em;
+}
+
+.dropdown-item {
+    color: #333 !important;
+}
