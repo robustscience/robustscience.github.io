@@ -95,6 +95,11 @@ a {
     color: #4C84C7 !important;
 }
 
+.row a {
+    font-weight: bold !important;
+    border-bottom: 1px #999 dashed !important;
+}
+
 /* Navigation Header */
 header {
     background-color: rgb(255, 255, 255);
