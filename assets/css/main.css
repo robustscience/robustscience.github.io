@@ -1467,6 +1467,7 @@ footer a {
     position: relative;
     overflow: hidden;
     padding-top: 56.25%;
+    margin-bottom: 2em;
 }
 
 .resp-iframe {
